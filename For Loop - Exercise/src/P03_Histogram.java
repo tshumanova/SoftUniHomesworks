@@ -20,9 +20,9 @@ public class P03_Histogram {
             //≥ 800
             if (number < 200) {
                 p1 += 1;
-            } else if (number <= 400) {
+            } else if (number < 400) {
                 p2 += 1;
-            } else if (number <= 600) {
+            } else if (number < 600) {
                 p3 += 1;
             } else if (number < 800) {
                 p4 += 1;
