@@ -6,7 +6,7 @@ public class Salary_05 {
         int n = Integer.parseInt(scanner.nextLine());
         int salary = Integer.parseInt(scanner.nextLine());
 
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i >= n; i++) {
             String site = scanner.nextLine();
 
             switch (site) {
